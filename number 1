@@ -1,0 +1,7 @@
+%% Reduce Block Diagram
+% Variable
+
+G1_num=[1];
+G1_den=[1 0 0];
+
+
