@@ -31,5 +31,20 @@ H3_tf=tf(H3_num,H3_den)
 
 
 
+%% Operations 
+
+tfnum = G1_tf*G3_tf*(G2_tf+G2_num)
+
+tfden = (1 + G2_tf*H2_tf + G1_tf*G2_tf*H1_tf)* (1 + G3_tf*H3_tf);
+Tf_final = tfnum/tfden
+
+
+%% Coefficient Convertion 
+Tf_num_final=[1 1 -5 -5 4 4 0 0 0 0];
+Tf_den_final=[1 0 -2 0 2 -1 -2 2 1 -1 0 0 0];
+
+
+
+
 
 
